@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Record Validation">2e081b9f1ba400109603fcc8cc4bcb84</copied_from>
+        <description>Validate that record '{{Step 2: Record Insert.Record}}' does not exist</description>
+        <display_name>Record Validation</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Record Validation">1f39a288df60220062fe6c7a4df2639d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>kecuster</sys_created_by>
+        <sys_created_on>2019-10-23 01:41:14</sys_created_on>
+        <sys_id>58b9d3131be400109603fcc8cc4bcb62</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Record Validation</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_58b9d3131be400109603fcc8cc4bcb62</sys_update_name>
+        <sys_updated_by>kecuster</sys_updated_by>
+        <sys_updated_on>2019-10-23 01:43:28</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <test display_value="When needed - Past">90b953131be400109603fcc8cc4bcb12</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=58b9d3131be400109603fcc8cc4bcb62"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>58b9d3131be400109603fcc8cc4bcb62</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kecuster</sys_created_by>
+        <sys_created_on>2019-10-23 01:41:14</sys_created_on>
+        <sys_id>20b9d3131be400109603fcc8cc4bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kecuster</sys_updated_by>
+        <sys_updated_on>2019-10-23 01:41:14</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">cbddfa135320220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>58b9d3131be400109603fcc8cc4bcb62</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kecuster</sys_created_by>
+        <sys_created_on>2019-10-23 01:41:14</sys_created_on>
+        <sys_id>6cb9d3131be400109603fcc8cc4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kecuster</sys_updated_by>
+        <sys_updated_on>2019-10-23 01:41:14</sys_updated_on>
+        <value/>
+        <variable display_value="">52ed1e5b5360220002c6435723dc3421</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>58b9d3131be400109603fcc8cc4bcb62</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kecuster</sys_created_by>
+        <sys_created_on>2019-10-23 01:41:14</sys_created_on>
+        <sys_id>a4b9d3131be400109603fcc8cc4bcb65</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>kecuster</sys_updated_by>
+        <sys_updated_on>2019-10-23 01:41:14</sys_updated_on>
+        <value>u_requested_for={{step['d4b953131be400109603fcc8cc4bcb15'].user}}^u_requested_for_email={{step['d4b953131be400109603fcc8cc4bcb15'].user.first_name}}.{{step['d4b953131be400109603fcc8cc4bcb15'].user.last_name}}@example.com^u_request_type=legal^u_what_needed=legal1^u_when_neededISNOTEMPTY^EQ</value>
+        <variable display_value="">ff6e125353a0220002c6435723dc3442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>58b9d3131be400109603fcc8cc4bcb62</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kecuster</sys_created_by>
+        <sys_created_on>2019-10-23 01:41:14</sys_created_on>
+        <sys_id>a8b9d3131be400109603fcc8cc4bcb64</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>kecuster</sys_updated_by>
+        <sys_updated_on>2019-10-23 01:43:28</sys_updated_on>
+        <value>record_not_found</value>
+        <variable display_value="">67400008676003007ba405225685efa4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>58b9d3131be400109603fcc8cc4bcb62</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kecuster</sys_created_by>
+        <sys_created_on>2019-10-23 01:41:14</sys_created_on>
+        <sys_id>e0b9d3131be400109603fcc8cc4bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kecuster</sys_updated_by>
+        <sys_updated_on>2019-10-23 01:41:14</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="">6aad5a575360220002c6435723dc34b0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=58b9d3131be400109603fcc8cc4bcb62"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>58b9d3131be400109603fcc8cc4bcb62</id>
+        <sys_created_by>kecuster</sys_created_by>
+        <sys_created_on>2019-10-23 01:41:14</sys_created_on>
+        <sys_id>6cb9d3131be400109603fcc8cc4bcb65</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>kecuster</sys_updated_by>
+        <sys_updated_on>2019-10-23 01:41:14</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value>u_requested_for={{step['d4b953131be400109603fcc8cc4bcb15'].user}}^u_requested_for_email={{step['d4b953131be400109603fcc8cc4bcb15'].user.first_name}}.{{step['d4b953131be400109603fcc8cc4bcb15'].user.last_name}}@example.com^u_request_type=legal^u_what_needed=legal1^u_when_neededISNOTEMPTY^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>58b9d3131be400109603fcc8cc4bcb62</id>
+        <sys_created_by>kecuster</sys_created_by>
+        <sys_created_on>2019-10-23 01:41:14</sys_created_on>
+        <sys_id>a8b9d3131be400109603fcc8cc4bcb65</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>kecuster</sys_updated_by>
+        <sys_updated_on>2019-10-23 01:41:14</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value>{{step['18b9d3131be400109603fcc8cc4bcb57'].record_id}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>333df290dbfbf74007072f17d4961942</instance_id>
+        <instance_name>dev93205</instance_name>
+        <name>sys_atf_step_58b9d3131be400109603fcc8cc4bcb62</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Record Validation">2e081b9f1ba400109603fcc8cc4bcb84</copied_from><description>Validate that record '{{Step 2: Record Insert.Record}}' does not exist</description><display_name>Record Validation</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>3</order><snapshot/><step_config display_value="Record Validation">1f39a288df60220062fe6c7a4df2639d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>kecuster</sys_created_by><sys_created_on>2019-10-23 01:41:14</sys_created_on><sys_id>58b9d3131be400109603fcc8cc4bcb62</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Record Validation</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_58b9d3131be400109603fcc8cc4bcb62</sys_update_name><sys_updated_by>kecuster</sys_updated_by><sys_updated_on>2019-10-23 01:43:28</sys_updated_on><table>x_58872_needit_needit</table><test display_value="When needed - Past">90b953131be400109603fcc8cc4bcb12</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=58b9d3131be400109603fcc8cc4bcb62"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>58b9d3131be400109603fcc8cc4bcb62</document_key><order>10</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>kecuster</sys_created_by><sys_created_on>2019-10-23 01:41:14</sys_created_on><sys_id>20b9d3131be400109603fcc8cc4bcb65</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kecuster</sys_updated_by><sys_updated_on>2019-10-23 01:41:14</sys_updated_on><value>1</value><variable display_value="">cbddfa135320220002c6435723dc3415</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>58b9d3131be400109603fcc8cc4bcb62</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>kecuster</sys_created_by><sys_created_on>2019-10-23 01:41:14</sys_created_on><sys_id>6cb9d3131be400109603fcc8cc4bcb64</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kecuster</sys_updated_by><sys_updated_on>2019-10-23 01:41:14</sys_updated_on><value/><variable display_value="">52ed1e5b5360220002c6435723dc3421</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>58b9d3131be400109603fcc8cc4bcb62</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>kecuster</sys_created_by><sys_created_on>2019-10-23 01:41:14</sys_created_on><sys_id>a4b9d3131be400109603fcc8cc4bcb65</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>kecuster</sys_updated_by><sys_updated_on>2019-10-23 01:41:14</sys_updated_on><value>u_requested_for={{step['d4b953131be400109603fcc8cc4bcb15'].user}}^u_requested_for_email={{step['d4b953131be400109603fcc8cc4bcb15'].user.first_name}}.{{step['d4b953131be400109603fcc8cc4bcb15'].user.last_name}}@example.com^u_request_type=legal^u_what_needed=legal1^u_when_neededISNOTEMPTY^EQ</value><variable display_value="">ff6e125353a0220002c6435723dc3442</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>58b9d3131be400109603fcc8cc4bcb62</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>kecuster</sys_created_by><sys_created_on>2019-10-23 01:41:14</sys_created_on><sys_id>a8b9d3131be400109603fcc8cc4bcb64</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>kecuster</sys_updated_by><sys_updated_on>2019-10-23 01:43:28</sys_updated_on><value>record_not_found</value><variable display_value="">67400008676003007ba405225685efa4</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>58b9d3131be400109603fcc8cc4bcb62</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>kecuster</sys_created_by><sys_created_on>2019-10-23 01:41:14</sys_created_on><sys_id>e0b9d3131be400109603fcc8cc4bcb65</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kecuster</sys_updated_by><sys_updated_on>2019-10-23 01:41:14</sys_updated_on><value>x_58872_needit_needit</value><variable display_value="">6aad5a575360220002c6435723dc34b0</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=58b9d3131be400109603fcc8cc4bcb62"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>field_values</field><id>58b9d3131be400109603fcc8cc4bcb62</id><sys_created_by>kecuster</sys_created_by><sys_created_on>2019-10-23 01:41:14</sys_created_on><sys_id>6cb9d3131be400109603fcc8cc4bcb65</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>kecuster</sys_updated_by><sys_updated_on>2019-10-23 01:41:14</sys_updated_on><table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table><value>u_requested_for={{step['d4b953131be400109603fcc8cc4bcb15'].user}}^u_requested_for_email={{step['d4b953131be400109603fcc8cc4bcb15'].user.first_name}}.{{step['d4b953131be400109603fcc8cc4bcb15'].user.last_name}}@example.com^u_request_type=legal^u_what_needed=legal1^u_when_neededISNOTEMPTY^EQ</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>record_id</field><id>58b9d3131be400109603fcc8cc4bcb62</id><sys_created_by>kecuster</sys_created_by><sys_created_on>2019-10-23 01:41:14</sys_created_on><sys_id>a8b9d3131be400109603fcc8cc4bcb65</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>kecuster</sys_updated_by><sys_updated_on>2019-10-23 01:41:14</sys_updated_on><table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table><value>{{step['18b9d3131be400109603fcc8cc4bcb57'].record_id}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-1749142104</payload_hash>
+        <record_name>Record Validation</record_name>
+        <reverted_from/>
+        <source>2697df5f1ba400109603fcc8cc4bcbcf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kecuster</sys_created_by>
+        <sys_created_on>2019-10-23 01:43:28</sys_created_on>
+        <sys_id>d93a5f131be400109603fcc8cc4bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16df6487c430000001</sys_recorded_at>
+        <sys_updated_by>kecuster</sys_updated_by>
+        <sys_updated_on>2019-10-23 01:43:28</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>553a5f1320e400100c7c60ec99578f3d</update_guid>
+        <update_guid_history>553a5f1320e400100c7c60ec99578f3d:-1749142104,6cb9d31357e4001040dfc55f47f8726d:1580361707,e8b9d31380e400103ad71bc1e7dfa867:2074710196</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kecuster</sys_created_by>
+        <sys_created_on>2019-10-23 01:44:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>179aa82b45d6404a85808a264a98a211</sys_id>
+        <sys_metadata>58b9d3131be400109603fcc8cc4bcb62</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Validation</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_58b9d3131be400109603fcc8cc4bcb62</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_58b9d3131be400109603fcc8cc4bcb62">d93a5f131be400109603fcc8cc4bcb3d</sys_update_version>
+        <sys_updated_by>kecuster</sys_updated_by>
+        <sys_updated_on>2019-10-23 01:44:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
